@@ -1,0 +1,26 @@
+help
+load res/testImages/tester.ppm tester
+load res/testImages/pinwheel.png pinwheel
+load res/testImages/checkers.bmp checkers
+brighten 35 tester tester-bright
+vertical-flip tester tester-vertical
+horizontal-flip tester tester-horizontal
+sepia-tone tester tester-sepia
+greyscale tester tester-greyscale
+horizontal-flip tester-horizontal tester-greyscale-horizontal
+blur tester tester-blur
+blur checkers checkers-blur
+blur tester-greyscale-horizontal tester-greyscale-horizontal-blur
+sharpen tester tester-sharpen
+red-component tester tester-strawberry
+green-component tester tester-lime
+blue-component tester tester-blueberry
+value-component tester tester-value
+luma-component tester tester-luma
+intensity-component tester tester-INTENSE
+save res/testImages/testerGBlurred.ppm tester-blur
+save res/testImages/testerSepia.jpeg tester-sepia
+save res/testImages/testerEdited.png tester-greyscale-horizontal-blur
+save res/testImages/checkers.ppm checkers
+save res/testImages/checkersbmp.bmp checkers
+quit

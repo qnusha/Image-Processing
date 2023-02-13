@@ -1,0 +1,5 @@
+HOW TO USE THE GUI VERSION OF IMAGEPROC:
+1) Run the program.
+2) Click on the buttons that are labeled with the things you want to do.
+3) ???
+4) Profit.
