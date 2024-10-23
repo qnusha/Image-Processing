@@ -1,4 +1,4 @@
-Hi! This is our Image Processing Program that we made for Assignments 4 and 5.
+Image Processing Program
 
 This code was primarily written by Anusha Bandaru and Jackson Green. The exception to this is the
 ImageUtil.java file, which is based off of what was provided to us at the start of the project.
